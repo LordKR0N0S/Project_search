@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Пошук зображень, розширений пошук -->
+    <nav class="search">
+      <div class="search__pic">
+        <a href="../index.html">Повернутись до пошуку Google</a>
+      </div>
+    </nav>
+    <!-- Пошукова система "Гугл" -->
+    <img src="img/Google-logo.jpg" alt="google-logo" class="google-logo" />
+    <!-- Поле для вводу запиту в пошуковій системі "Гугл" -->
+    <form action="https://google.com/search" method="GET" class="search-form">
+      <div class="input-text">
+        <input type="text" name="q" />
+        <input type="hidden" name="tbm" value="isch" />
+      </div>
+      <div class="submit-buttons">
+        <input type="submit" value="Пошук зображень" class="submit" />
+      </div>
+    </form>
+  </body>
+</html>
